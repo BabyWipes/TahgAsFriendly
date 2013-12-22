@@ -53,6 +53,6 @@
             <url>http://repo.bukkit.org/content/groups/public</url>
         </repository>
     </repositories>
-    <description>A plugin to allow warping via signs.</description>
+    <description>A plugin to allow tagging players as friendly</description>
     <version>1.0</version>
 </project>
