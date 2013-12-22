@@ -22,14 +22,14 @@ public class TahgAsFriendly extends JavaPlugin {
 
     private void createConfig() {
 
-        File f = new File("plugins/WarpSigns/config.yml");
+        File f = new File("plugins/TahgAsFriendly/config.yml");
 
         if (!f.exists()) {
 
             config.options().header("TahgAsFriendly, made by _Husky_");
 
             try {
-                config.save("plugins/WarpSigns/config.yml");
+                config.save("plugins/TahgAsFriendly/config.yml");
             } catch (IOException e) {
                 e.printStackTrace();
             }
